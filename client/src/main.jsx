@@ -12,7 +12,7 @@ const USER_COLORS = [
   "#0891b2",
   "#2563eb",
   "#7c3aed",
-  "#db2777",
+  "#0d0308",
 ];
 
 function getUserColor(userName) {
@@ -97,7 +97,7 @@ function App() {
   return (
     <main style={styles.page}>
       <section style={styles.chatCard}>
-        <h1 style={styles.title}>Realtime Chat</h1>
+        <h1 style={styles.title}>Realtime Two-Way Chat</h1>
         <p style={styles.status}>
           {isConnected ? "Connected to server" : "Connecting..."}
         </p>
